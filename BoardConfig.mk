@@ -22,7 +22,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 # Allow putting ELF in PRODUCT_COPY_FILES (required by vibrator)
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/redmi/rosemary
+DEVICE_PATH := device/xiaomi/fleur
 PREBUILT_PATH := $(DEVICE_PATH)/prebuilt
 
 # Architecture
@@ -39,14 +39,14 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := rosemary
+TARGET_BOOTLOADER_BOARD_NAME := fleur
 TARGET_NO_BOOTLOADER := true
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6785
+TARGET_BOARD_PLATFORM := mt6781
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := rosemary,secret,maltose
+TARGET_OTA_ASSERT_DEVICE := fleur,miel,mielp,fleurp,fleur_p,miel_p
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \

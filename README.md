@@ -1,4 +1,4 @@
-# TWRP device tree for Redmi Note 10S (rosemary)
+# TWRP device tree for Redmi Note 11S (fleur)
 
 ## Status
 
@@ -42,7 +42,7 @@ Current state of features (from [here](https://twrp.me/faq/OfficialMaintainer.ht
 
 ```bash
 source build/envsetup.sh
-lunch twrp_rosemary-eng
+lunch twrp_fleur-eng
 mka bootimage
 ```
 

@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/redmi/rosemary
+LOCAL_PATH := device/xiaomi/fleur
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -67,11 +67,11 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.rosemary
+    android.hardware.vibrator-service.fleur
 
 # Copy the vibrator into recovery image
 PRODUCT_COPY_FILES += \
-	$(OUT_DIR)/target/product/rosemary/system/bin/hw/android.hardware.vibrator-service.rosemary:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hw/android.hardware.vibrator-service.rosemary
+	$(OUT_DIR)/target/product/fleur/system/bin/hw/android.hardware.vibrator-service.fleur:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hw/android.hardware.vibrator-service.fleur
 
 # Fastbootd
 PRODUCT_PACKAGES += \
